@@ -886,6 +886,8 @@ HotelDatepicker.prototype.showSelectedInfo = function showSelectedInfo () {
 		this.changed = true;
 	} else {
             // Disable the close button until a valid date range
+		console.log(this.start);
+		console.log(this.end);
 		closeButton.disabled = true;
 	}
 };
