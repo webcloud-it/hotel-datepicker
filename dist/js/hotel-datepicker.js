@@ -960,7 +960,7 @@ HotelDatepicker.prototype.dayClicked = function dayClicked (day) {
 
 	// Optionally run a function when a day is clicked
 	if (this.onDayClick) {
-		this.onDayClick(day);
+		this.onDayClick(time);
 	}
 
         // Optionally run a function when a range is selected
