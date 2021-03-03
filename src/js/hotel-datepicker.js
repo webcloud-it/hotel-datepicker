@@ -942,7 +942,7 @@ export default class HotelDatepicker {
 
 		// Optionally run a function when a day is clicked
 		if (this.onDayClick) {
-			this.onDayClick(time);
+			this.onDayClick(day, time, this.start, this.end);
 		}
 
         // Optionally run a function when a range is selected
